@@ -6,7 +6,7 @@
 /*   By: lchee-ti <lchee-ti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 16:15:30 by lchee-ti          #+#    #+#             */
-/*   Updated: 2024/12/10 16:25:19 by lchee-ti         ###   ########.fr       */
+/*   Updated: 2024/12/15 18:03:18 by lchee-ti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,9 @@
 # include <string.h>
 # include <unistd.h>
 # include <sys/time.h>
+# include <limits.h>
+# include <stdbool.h>
+
+void    *print_message(void *arg);
 
 #endif
